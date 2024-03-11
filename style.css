@@ -1,0 +1,184 @@
+@import url("https://use.typekit.net/zlf4nfu.css");
+body{
+    font-family: "loos-extended", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #cccbca;
+    font-size: 10pt;
+
+    background-color: #33231d;
+    margin: 0;
+}
+h1{color: #d2c19d;
+    font-size: 60pt;
+    margin: 32px 0;
+}
+h2{
+    color: #d2c19d;
+    font-size: 25pt;
+}
+a{
+    text-decoration: none;
+    color: #d2c19d;
+}
+nav{
+    display: flex;
+    justify-content: center;
+    
+    width: 100%;
+    padding-bottom: 64px;
+}
+nav img{
+    width: 25%;
+}
+nav span{
+    padding-top: 30px;
+}
+.navigation{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.footer{
+    text-align: center;
+    color: #d2c19d;
+    width: 100%;
+}
+.container-homepage{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 32px 30px ; justify-content: center;
+    text-align: center;
+}
+.container-homepage span{
+    visibility: hidden;
+}
+.buttons{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+.buttons a{
+    width: 175px;
+    
+    margin: 15px 0;
+    padding: 25px;
+    border-radius: 25px;
+    
+    background-color: #d2c19d;
+    color: #33231d;
+    font-size: 10pt;
+    animation: .7s ease;
+}
+.buttons a:hover{
+    background-color: #b6a788;
+    transform: scale(1.05);
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 32px 30px ;
+}
+
+.wrapper-info{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.menu-list{
+    width: 35%;
+    justify-content: center;
+    padding-bottom: 32px;
+}
+
+.article{
+    display: flex;
+    justify-content: space-between;
+}
+.openingsuren-title h2{
+    text-decoration: none;
+    font-size: 18pt;
+    text-align: center;
+}
+.openingsuren-dag{
+    display: flex;
+    justify-content: space-between;
+    font-size: 12pt
+}
+.google-maps{
+    margin-top: 32px;
+}
+#image-homepage{
+    width: 100%;
+    margin: 0;
+}
+#nav-homepage{
+    margin-bottom: 32px;
+    padding-bottom: 0;
+}
+#footer-image{
+    padding: 0;
+}
+#footer-info{
+    margin-top: 64px;
+}
+
+@media(min-width:768px){
+    .menu-list:nth-child(odd) {
+        margin-right: 125px;
+    }
+    #wijnen{
+        margin-top: -475px;
+    }
+    #sterkedrank{
+        margin-top: -300px;
+    }
+    #frisdrank{
+        margin-right: 0;
+    }
+    .wrapper-openingsuren{
+        width: 40%;
+    }
+    .openingsuren-dag p{
+        font-size: 18pt;
+    }
+}
+@media(max-width: 767px){
+    body{
+        font-size: 8pt;
+    }
+    h1{color: #d2c19d;
+        font-size: 32pt;
+        text-align: center;
+    }
+    h2{
+        color: #d2c19d;
+        font-size: 12pt;
+        text-decoration: underline;
+        text-underline-offset: 0.7em;
+    }
+    .container{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 32px 30px ;
+    }
+    .wrapper-info{
+        width: 275px;
+    }
+    .menu-list{
+        width: 100%;
+        justify-content: center;
+        padding-bottom: 32px;
+    }
+    .article{
+        display: flex;
+        justify-content: space-between;
+    }
+
+}
+
+
