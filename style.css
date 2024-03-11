@@ -27,16 +27,23 @@ nav{
     
     width: 100%;
     padding-bottom: 64px;
+    text-align: center;
 }
 nav img{
-    width: 25%;
+    width: 65%;
+}
+span{
+    width: 200px;
+}
+#span-homepage{
+    visibility: hidden;
 }
 nav span{
     padding-top: 30px;
 }
 .navigation{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
 }
 
@@ -52,9 +59,7 @@ nav span{
     justify-content: center;
     text-align: center;
 }
-.container-homepage span{
-    visibility: hidden;
-}
+
 .buttons{
     display: flex;
     flex-direction: column;
@@ -169,6 +174,9 @@ nav span{
         font-size: 12pt;
         text-decoration: underline;
         text-underline-offset: 0.7em;
+    }
+    span{
+        width: 100px;
     }
     .container{
         display: flex;
