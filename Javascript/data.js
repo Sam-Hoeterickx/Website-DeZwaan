@@ -258,27 +258,27 @@ export function getFrisdrank(){
                 "price":"€2,40"
             },
             {
-                "name": "Tonisteiner Orange",
+                "name": "Tönisteiner Orange",
                 "price":"€2,30"
             },
             {
-                "name": "Tonisteiner Citroen",
+                "name": "Tönisteiner Citroen",
                 "price":"€2,40"
             },
             {
-                "name": "Tonisteiner Sprudel",
+                "name": "Tönisteiner Sprudel",
                 "price":"€2,20"
             },
             {
-                "name": "Tonisteiner Naranja",
+                "name": "Tönisteiner Naranja",
                 "price":"€2,60"
             },
             {
-                "name": "Tonisteiner Vruchtenkorf",
+                "name": "Tönisteiner Vruchtenkorf",
                 "price":"€2,60"
             },
             {
-                "name": "Tonisteiner Gember",
+                "name": "Tönisteiner Gember",
                 "price":"€2,60"
             }
         ]

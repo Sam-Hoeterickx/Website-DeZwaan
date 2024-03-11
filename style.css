@@ -48,7 +48,8 @@ nav span{
 .container-homepage{
     display: flex;
     flex-wrap: wrap;
-    padding: 32px 30px ; justify-content: center;
+    padding: 32px 30px ; 
+    justify-content: center;
     text-align: center;
 }
 .container-homepage span{
@@ -148,6 +149,12 @@ nav span{
     .openingsuren-dag p{
         font-size: 18pt;
     }
+    .buttons{
+        flex-direction: row;
+    }
+    .buttons a{
+        margin: 64px 24px;
+    }
 }
 @media(max-width: 767px){
     body{
@@ -181,7 +188,6 @@ nav span{
         display: flex;
         justify-content: space-between;
     }
-
 }
 
 
