@@ -65,7 +65,9 @@ nav span{
     
     margin: 15px 0;
     padding: 25px;
-    border-radius: 25px;
+    /* border-radius: 25px; */
+    border-top-left-radius: 25px;
+    border-bottom-right-radius: 25px;
     
     background-color: #d2c19d;
     color: #33231d;
@@ -73,7 +75,8 @@ nav span{
     animation: .7s ease;
 }
 .buttons a:hover{
-    background-color: #b6a788;
+    background-color: #33231d;
+    color: #d2c19d;
     transform: scale(1.05);
 }
 .container{
