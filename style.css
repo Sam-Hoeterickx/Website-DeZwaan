@@ -83,6 +83,7 @@ nav span{
     background-color: #33231d;
     border: 1pt #d2c19d solid;
     color: #d2c19d;
+    margin-bottom: 13px;
 }
 .container{
     display: flex;
