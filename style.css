@@ -82,7 +82,7 @@ nav span{
 }
 .buttons a:hover{
     background-color: #33231d;
-    color: #d2c19d;
+    border: 10px #d2c19d solid;
     transform: scale(1.05);
 }
 .container{
