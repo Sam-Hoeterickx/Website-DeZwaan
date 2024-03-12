@@ -83,6 +83,7 @@ nav span{
     background-color: #33231d;
     border: 1pt #d2c19d solid;
     color: #d2c19d;
+    
 }
 .container{
     display: flex;
@@ -122,6 +123,7 @@ nav span{
 #image-homepage{
     width: 100%;
     margin: 0;
+    position: static;
 }
 #nav-homepage{
     margin-bottom: 32px;
