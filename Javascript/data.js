@@ -3,22 +3,22 @@ export function getBierenVat(){
         [
             {
                 "name": "Stella Artois - 25cl/33cl",
-                "price":"€2,20 / €2,40"
+                "price":"€2,30 / €2,50"
             },
             {
                 "name": "Primus - 25cl/33cl",
-                "price":"€2,20 / €2,40"
+                "price":"€2,30 / €2,50"
             },
             {
                 "name": "Hoegaarden - 25cl/33cl",
-                "price":"€2,20 / €2,40"
+                "price":"€2,30 / €2,50"
             },
             {
                 "name": "Bolleke",
-                "price":"€2,20"
+                "price":"€2,50"
             },
             {
-                "name": "Bier van de maand",
+                "name": "Trippel Karmeliet",
                 "price":"€..."
             }
         ]
@@ -29,35 +29,43 @@ export function getBierenFles(){
         [
             {
                 "name": "Jupiler",
-                "price":"€2,20"
+                "price":"€2,30"
             },
             {
                 "name": "Lindemans",
-                "price":"€2,70"
+                "price":"€2,80"
             },
             {
                 "name": "Liefmans",
-                "price":"€2,70"
+                "price":"€2,80"
+            },
+            {
+                "name": "Hoegaarden Rose",
+                "price":"€2,80"
             },
             {
                 "name": "Rodenbach",
-                "price":"€2,70"
+                "price":"€2,80"
             },
             {
                 "name": "Leffe Blond",
-                "price":"€3,70"
+                "price":"€3,80"
             },
             {
                 "name": "Leffe Bruin",
-                "price":"€3,70"
+                "price":"€3,80"
             },
             {
                 "name": "Leffe Blond/Bruin NA",
-                "price":"€3,70"
+                "price":"€3,80"
+            },
+            {
+                "name": "Vieux Temps",
+                "price":"€2,40"
             },
             {
                 "name": "Stella NA",
-                "price":"€2,20"
+                "price":"€2,30"
             },
             {
                 "name": "Duvel",
@@ -80,6 +88,14 @@ export function getBierenFles(){
                 "price":"€4,00"
             },
             {
+                "name": "La Chouffe 0,0%",
+                "price":"€4,00"
+            },
+            {
+                "name": "Maes Lemon",
+                "price":"€2,70"
+            },
+            {
                 "name": "Paix Dieux",
                 "price":"€4,70"
             },
@@ -94,6 +110,18 @@ export function getBierenFles(){
             {
                 "name": "Chimay Blauw",
                 "price":"€4,10"
+            },
+            {
+                "name": "Tarot Noir",
+                "price":"€3,20"
+            },
+            {
+                "name": "Tarot D'or",
+                "price":"€3,20"
+            },
+            {
+                "name": "Karmeliet",
+                "price":"€4,00"
             }
         ]
     );
@@ -103,23 +131,27 @@ export function getWijnen(){
         [
             {
                 "name": "Witte Wijn (Droog)",
-                "price":"€3,60"
+                "price":"€3,80"
             },
             {
                 "name": "Witte Wijn (Zoet)",
-                "price":"€3,80"
+                "price":"€3,90"
             },
             {
                 "name": "Rosé Wijn",
-                "price":"€3,60"
+                "price":"€3,70"
             },
             {
                 "name": "Rode Wijn",
-                "price":"€3,60"
+                "price":"€3,70"
             },
             {
-                "name": "Cava",
-                "price":"€3,80"
+                "name": "Cava Glas",
+                "price":"€3,90"
+            },
+            {
+                "name": "Cava flesje",
+                "price":"€7,00"
             },
             {
                 "name": "Porto Wit/Rood",
@@ -133,27 +165,27 @@ export function getWarmeDranken(){
         [
             {
                 "name": "Koffie/Deca",
-                "price":"€2,50"
+                "price":"€2,60"
             },
             {
                 "name": "Mokka",
-                "price":"€2,50"
+                "price":"€2,60"
             },
             {
                 "name": "Thee",
-                "price":"€2,50"
+                "price":"€2,60"
             },
             {
-                "name": "Cecemel",
-                "price":"€2,80"
+                "name": "Warme Choco",
+                "price":"€2,90"
             },
             {
                 "name": "Cafe Laté",
-                "price":"€3,50"
+                "price":"€3,60"
             },
             {
                 "name": "Soep",
-                "price":"€2,50"
+                "price":"€2,60"
             }
         ]
     );
@@ -209,11 +241,15 @@ export function getSnacks(){
         [
             {
                 "name": "Chips",
-                "price":"€2,00"
+                "price":"€2,20"
             },
             {
                 "name": "Bifi Worst",
-                "price":"€2,00"
+                "price":"€2,20"
+            },
+            {
+                "name": "Chocolade",
+                "price":"€2,20"
             }
         ]
     );
@@ -223,63 +259,71 @@ export function getFrisdrank(){
         [
             {
                 "name": "Cola / Cola Zero",
-                "price":"€2,20"
-            },
-            {
-                "name": "Fanta",
-                "price":"€2,20"
-            },
-            {
-                "name": "Sprite",
-                "price":"€2,20"
-            },
-            {
-                "name": "Val Bruis / Plat",
-                "price":"€2,20"
-            },
-            {
-                "name": "Agrum",
-                "price":"€2,20"
-            },
-            {
-                "name": "Bitter Lemon",
-                "price":"€2,20"
-            },
-            {
-                "name": "Ice-Tea",
-                "price":"€2,20"
-            },
-            {
-                "name": "Cecemel",
-                "price":"€2,40"
-            },
-            {
-                "name": "Looza Orange / Pompelmoes",
-                "price":"€2,40"
-            },
-            {
-                "name": "Tönisteiner Orange",
                 "price":"€2,30"
             },
             {
-                "name": "Tönisteiner Citroen",
+                "name": "Fanta",
+                "price":"€2,30"
+            },
+            {
+                "name": "Sprite",
+                "price":"€2,30"
+            },
+            {
+                "name": "Val Bruis / Plat",
+                "price":"€2,30"
+            },
+            {
+                "name": "Agrum",
+                "price":"€2,30"
+            },
+            {
+                "name": "Gini",
                 "price":"€2,40"
             },
             {
+                "name": "Tonic",
+                "price":"€2,30"
+            },
+            {
+                "name": "Bitter Lemon",
+                "price":"€2,30"
+            },
+            {
+                "name": "Ice-Tea",
+                "price":"€2,30"
+            },
+            {
+                "name": "Cecemel",
+                "price":"€2,50"
+            },
+            {
+                "name": "Looza Orange / Pompelmoes",
+                "price":"€2,50"
+            },
+            {
+                "name": "Tönisteiner Orange",
+                "price":"€2,50"
+            },
+            {
+                "name": "Tönisteiner Citroen",
+                "price":"€2,50"
+            },
+            {
                 "name": "Tönisteiner Sprudel",
-                "price":"€2,20"
+                "price":"€2,30"
             },
             {
                 "name": "Tönisteiner Naranja",
-                "price":"€2,60"
+                "price":"€2,70"
             },
             {
                 "name": "Tönisteiner Vruchtenkorf",
-                "price":"€2,60"
+                "price":"€2,70"
             },
             {
                 "name": "Tönisteiner Gember",
-                "price":"€2,60"
+                "price":"€2,70"
             }
         ]
     )
