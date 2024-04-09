@@ -44,6 +44,10 @@ export function getBierenFles(){
                 "price":"€2,80"
             },
             {
+                "name": "Hoegaarden Rose",
+                "price":"€2,80"
+            },
+            {
                 "name": "Rodenbach",
                 "price":"€2,80"
             },
@@ -58,6 +62,10 @@ export function getBierenFles(){
             {
                 "name": "Leffe Blond/Bruin NA",
                 "price":"€3,80"
+            },
+            {
+                "name": "Vieux Temps",
+                "price":"€2,40"
             },
             {
                 "name": "Vieux Temps",
