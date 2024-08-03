@@ -1,6 +1,7 @@
 import{
     getBierenFles,
     getBierenVat,
+    getAlcoholVrijBier,
     getSnacks,
     getWijnen,
     getSterkeDrank,
@@ -10,6 +11,7 @@ import{
 
 let bierenVat;
 let bierenFles;
+let alcoholVrijBier;
 let wijnen;
 let snacks;
 let sterkeDranken;
@@ -21,22 +23,25 @@ init();
 function init(){
     bierenVat = JSON.parse(getBierenVat());
     bierenFles = JSON.parse(getBierenFles());
+    alcoholVrijBier = JSON.parse(getAlcoholVrijBier());
     wijnen = JSON.parse(getWijnen());
     snacks = JSON.parse(getSnacks());
     sterkeDranken = JSON.parse(getSterkeDrank());
     warmedranken = JSON.parse(getWarmeDranken());
     frisdranken = JSON.parse(getFrisdrank());
 
-    console.log(bierenVat);
-    console.log(bierenFles);
-    console.log(wijnen);
-    console.log(snacks);
-    console.log(sterkeDranken);
-    console.log(warmedranken)
-    console.log(frisdranken);
+    // console.log(bierenVat);
+    // console.log(bierenFles);
+    // console.log(alcoholVrijBier);
+    // console.log(wijnen);
+    // console.log(snacks);
+    // console.log(sterkeDranken);
+    // console.log(warmedranken)
+    // console.log(frisdranken);
 
     renderBierenVat();
     renderBierenfles();
+    renderAlcoholVrijBier();
     renderWijnen();
     renderSnacks();
     renderSterkeDranken();
@@ -55,7 +60,7 @@ function renderBierenVat(){
                 <p>${bierVat.price}</p>
             </div>
         `
-        console.log(bierVat);
+        // console.log(bierVat);
     });
     containerBierVat.innerHTML += htmlString;   
 }
@@ -71,9 +76,26 @@ function renderBierenfles(){
             <p>${bierFles.price}</p>
         </div>
         `
-        console.log(bierFles);
+        // console.log(bierFles);
     });
     containerBierFles.innerHTML += htmlString;   
+}
+
+function renderAlcoholVrijBier(){
+    let htmlString = "";
+    const containerAlcoholVrijBier = document.querySelector('#bieren-alcoholVrij');
+
+    alcoholVrijBier.forEach(function(bierNA){
+        htmlString = `
+            <div class="article">
+                <p>${bierNA.name}</p>
+                <p>${bierNA.price}</p>
+            </div>
+        `
+        // console.log(bierNA);
+    });
+
+    containerAlcoholVrijBier.innerHTML += htmlString;
 }
 
 function renderWijnen(){
@@ -87,7 +109,7 @@ function renderWijnen(){
             <p>${wijn.price}</p>
         </div>
         `
-        console.log(wijnen);
+        // console.log(wijnen);
     });
     containerWijnen.innerHTML += htmlString;   
 }
@@ -103,7 +125,7 @@ function renderSnacks(){
             <p>${snack.price}</p>
         </div>
         `
-        console.log(snack);
+        // console.log(snack);
     });
     containerSnacks.innerHTML += htmlString;   
 }
@@ -119,7 +141,7 @@ function renderSterkeDranken(){
             <p>${sterkeDrank.price}</p>
         </div>
         `
-        console.log(sterkeDrank);
+        // console.log(sterkeDrank);
     });
     containerSterkeDranken.innerHTML += htmlString;   
 }
@@ -135,7 +157,7 @@ function renderWarmeDranken(){
             <p>${warmedrank.price}</p>
         </div>
         `
-        console.log(warmedrank);
+        // console.log(warmedrank);
     });
     containerWarmeDranken.innerHTML += htmlString;   
 }
@@ -151,7 +173,7 @@ function renderFrisDranken(){
             <p>${frisdrank.price}</p>
         </div>
         `
-        console.log(frisdrank);
+        // console.log(frisdrank);
     });
     containerFrisDranken.innerHTML += htmlString;   
 }

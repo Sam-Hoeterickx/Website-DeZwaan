@@ -18,8 +18,8 @@ export function getBierenVat(){
                 "price":"€2,50"
             },
             {
-                "name": "Trippel Karmeliet",
-                "price":"€..."
+                "name": "Duvel 6,66",
+                "price":"€3,70"
             }
         ]
     );
@@ -32,12 +32,20 @@ export function getBierenFles(){
                 "price":"€2,30"
             },
             {
+                "name": "Guld",
+                "price": "€2,70"
+            },
+            {
                 "name": "Lindemans",
                 "price":"€2,80"
             },
             {
                 "name": "Liefmans",
                 "price":"€2,80"
+            },
+            {
+                "name": "Liefmans Peach",
+                "price": "€2,80"
             },
             {
                 "name": "Hoegaarden Rose",
@@ -68,14 +76,6 @@ export function getBierenFles(){
                 "price":"€2,40"
             },
             {
-                "name": "Vieux Temps",
-                "price":"€2,40"
-            },
-            {
-                "name": "Stella NA",
-                "price":"€2,30"
-            },
-            {
                 "name": "Duvel",
                 "price":"€3,90"
             },
@@ -93,10 +93,6 @@ export function getBierenFles(){
             },
             {
                 "name": "Cherry Chouffe",
-                "price":"€4,00"
-            },
-            {
-                "name": "La Chouffe 0,0%",
                 "price":"€4,00"
             },
             {
@@ -130,10 +126,34 @@ export function getBierenFles(){
             {
                 "name": "Karmeliet",
                 "price":"€4,00"
+            },
+            {
+                "name": "Vedette Extra Whtie",
+                "price":"€..."
             }
         ]
     );
 }
+
+export function getAlcoholVrijBier(){
+    return JSON.stringify(
+        [
+            {
+                "name": "Stella NA",
+                "price": "€2,30"
+            },
+            {
+                "name": "Stella NA",
+                "price":"€2,30"
+            },
+            {
+                "name": "La Chouffe 0,0%",
+                "price":"€4,00"
+            }
+        ]
+    );
+}
+
 export function getWijnen(){
     return JSON.stringify(
         [
@@ -192,6 +212,22 @@ export function getWarmeDranken(){
                 "price":"€3,60"
             },
             {
+                "name": "Cappucino",
+                "price":"€2,80"
+            },
+            {
+                "name": "Koffie verkeerd",
+                "price":"€3,00"
+            },
+            {
+                "name": "Irish Coffee",
+                "price":"€4,50"
+            },
+            {
+                "name": "Hasseltse Koffie",
+                "price":"€4,50"
+            },
+            {
                 "name": "Soep",
                 "price":"€2,60"
             }
@@ -240,6 +276,10 @@ export function getSterkeDrank(){
             {
                 "name": "Martini",
                 "price":"€5,00"
+            },
+            {
+                "name": "Fireman",
+                "price": "€2,50"
             }
         ]
     );
@@ -270,7 +310,7 @@ export function getFrisdrank(){
                 "price":"€2,30"
             },
             {
-                "name": "Fanta",
+                "name": "Ordal Geel",
                 "price":"€2,30"
             },
             {
@@ -291,10 +331,6 @@ export function getFrisdrank(){
             },
             {
                 "name": "Tonic",
-                "price":"€2,30"
-            },
-            {
-                "name": "Bitter Lemon",
                 "price":"€2,30"
             },
             {
@@ -327,10 +363,6 @@ export function getFrisdrank(){
             },
             {
                 "name": "Tönisteiner Vruchtenkorf",
-                "price":"€2,70"
-            },
-            {
-                "name": "Tönisteiner Gember",
                 "price":"€2,70"
             }
         ]
